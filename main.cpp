@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main() {
-    ifstream f("config.txt");
+    ifstream f("settings.conf");
     string str;
     string delimiter = "Greeting = ";
     size_t pos = 0;
